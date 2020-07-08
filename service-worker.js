@@ -12,3 +12,13 @@ self.addEventListener('install', (e) => {
     })
   );
 });
+
+self.addEventListener('fetch', function(e) {
+  console.log('fetch', e.request.url);
+  e.respondWith(
+    caches.match(e.request).then(function(response) {
+      return response || fetch(e.request);
+    })
+  );
+});
+
