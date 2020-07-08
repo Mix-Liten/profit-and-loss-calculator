@@ -6,10 +6,15 @@
   "description": "要賣多少才好？",
   "icons": [
     {
-      "src": "/profit-and-loss-calculator/images/icon.png",
+      "src": "images/icon.png",
       "sizes": "64x64",
       "type": "image/png"
-    }
+    },
+    {
+      "src":"images/icon2.png",
+      "sizes": "192×192",
+      "type": "image/png"
+　　}
   ],
-  "background_color": "grey"
+  "background_color": "purple"
 }
