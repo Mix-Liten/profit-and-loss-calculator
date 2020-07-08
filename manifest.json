@@ -4,6 +4,9 @@
   "start_url": "/profit-and-loss-calculator/index.html",
   "display": "fullscreen",
   "description": "要賣多少才好？",
+  "theme-color": "#2196F3",
+  "background_color": "purple",
+  "prefer_related_applications": true,
   "icons": [
     {
       "src": "images/icon.png",
@@ -20,6 +23,5 @@
       "sizes": "512×512",
       "type": "image/png"
     }
-  ],
-  "background_color": "purple"
+  ]
 }
